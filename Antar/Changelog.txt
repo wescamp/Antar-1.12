@@ -1,0 +1,236 @@
+Changelog Antar                Version 0.0.6
+
+Changed the XP of the Gelphrad_Initiate unit from 47 => 42
+Changed the HP of the Gelphrad_Initiate unit from 16 => 20
+There is now a limit of max 3 Sergeants allowed to recruit
+Downgraded Elorial Din from L3 Marshal to L2 Captain (Elorial Din is allowed now to level up till Elvish High Lord)
+
+
+01  The loyal Peasant levels now up to Thug (L1), no longer up to Bandit (L2)
+     (thanks taptap)
+01  On difficulty-level EASY : Now the enemy leader can only untill turn 27 recruit a full castle of Walking Corpses each turn                  
+     (thanks taptap)
+
+03  Gelphrad keeps his XP gained in 02 when he changes his clothes.
+     (thanks taptap)
+03  Changed the Arctic_Wolf-sprites to the core Wolf-sprites.
+     (thanks taptap)
+
+04  If you have more than 20 own units at the start, then the goblin spawn is reduced fom 2.5 per own unit to 2.0 per own unit.
+      (thanks taptap)
+04  Save game after finishing this scenario.
+     (thanks taptap)
+04  Add 2nd hint: 'Stay on the path'.
+04  Add 3rd hint: 'Keep together, and shield eachother'.
+
+05  Add hint to capture the elvish villages not.
+     (thanks Leo)
+
+06  Bat-leader will change to passive_leader=no when a unit comes next.
+     (thanks taptap)
+06  You don't get the 13 coins if you decide to kill the bat leader not.
+     (thanks taptap)
+
+07  The Elves kill no longer the Ork-leader at the end of the scenario, he gets in prison now.
+     (thanks taptap)
+
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.0.7
+
+Fixed a bug in 2nd scenarios [ai] definition (thanks WhiteWolf for reporting)
+
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.0.8                Upload 22.03.2012
+
+Fixed the missing image of the Death Squire
+02    The windmill has now income like a village
+02    The player gets now a warning before the Undead-reinforcements arrive    (thanks taptap)
+03    Now 3 different level of Wolfes attack together in pack
+05    Made it so that only one Elvish Hunter is loyal
+05    Fixed the scout problem
+05    Deletet name of the Yeti. Yetis shouldn't have any names.
+
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.0.10                Upload 07.04.2012
+
+01    Resized the map 
+05    Fixed a typo and  a missing closing-tag in the hint message
+
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.0.11                Upload 06.05.2012
+
+Fixed 'undead disapear message'
+Add last breath message for the loyal Lowitz
+Add last breath message for the loyal Segurd
+Add last breath message for Pretscher
+Add last breath message for loyal Elves
+Renamed the Lvl 1 Peasant to Vigilante
+ (thanks Metal King)
+
+01    Add one new village image (made by Zebulon) 
+01    Add different messages when Undead capture Human villages
+05    Removed the Scout from the intro 
+       (thanks taptap, thanks Metal King)
+05    Made the scenario a little more difficult, especially on HARD
+05    Add fake-attack-event to the intro
+06    Add an ancient armor to find
+07    Reduced Troll-leader's max_moves from 7 to 5
+       (thanks Metal King)
+07    Reduced Troll's moves after fake-move
+       (thanks Metal King)
+08    Changed the recruitment_pattern so that the Undead recruit not only archers
+
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.12                Upload 20.05.2012
+
+Changed the villagers alignment from 'neutral' to 'lawful'
+Added 'Hit and run' to Antar
+Added 'Cleave' abillity' to Careonryn 
+        (thanks Ninjuri for the idea; thanks dugi for the code)
+
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.13                Upload 02.06.2012
+
+Changed Elorial Din's traits to 'INTELLIGENT' and 'STRONG'
+Did a compete workover for all Elorial Din advancements
+
+05    Added [target] side=1,2 to the Yeti's [ai] tag
+06    Reduced the Yetis attack-damage and movement
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.14                Upload 04.06.2012
+
+Did some changes suggested by Esperon, to make 'Antar, Son of Rheor' translatable
+       (thanks Esperon)
+
+02    Changed the moves of the spawned undead to zero (for their first turn)
+       (thanks Limabean)
+03    Changed the code, so the Dwarves can come faster (1 turn) to the battlescene
+       (thanks Limabean)
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.15                Upload 03.07.2012
+
+Fixd a typo in the roc_rider's unit.cfg
+
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.16                Upload 04.07.2012
+
+Deleted an empty string that was marked as translatable, that caused a problem with updating the po-files (reported by Esperon)
+
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.17                Upload 20.07.2012
+
+Replaced the word 'Ork' with 'Orc' in all scenarios Orcs appear 
+
+01    Reduced hitpoints of the Scared Peasant 
+       (thanks to Quincy)
+02    Changed the death-event of the enemy leader for the case the other undead leader is spawned
+02    Added a price for the player (Staff of Kerathur for Gelphrad) if he is able to level Gelphrad in this scenario
+03    Changed the team-color of side 3 (Dwarves) from blue to red
+03    Added a fake side that appears in the status table, so the player don't recognize to soon that Lord Othar is the leader of the Undead.
+       (thanks to Quincy)
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.18                Upload 03.08.2012
+
+Limited the animated decay of the remaining undead at the end of each scenario.
+	(thanks to TheScribe for the idea)
+	(thanks to Doofus for help with the code)
+
+Fixed a bug in the macro {UNDEAD_DISAPEAR_MESSAGE}
+
+02	Fixed a bug in with Lord Veogwyns farewell gift. Gelphrad now gets the gift only if he is leveled up.
+
+02	Changed the code of Gelphrads staff.
+	 (thanks to Dugi for help with the effect-tag)
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.19                Upload 06.08.2012
+
+03	Fixed an <invalid WML found> error message
+	 (thanks to TheScribe for reporting)
+03	Fixed a bug in an ON_SIGHTING event, that prevented the dwarves from appearing
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.20                Upload 15.08.2012
+
+Fixed a wrong path to that make some images not visible to non windows users.
+	 (thanks to TheScribe and Kanzil for reporting; and to Anonymissimus for analysing and fixing the error)
+
+01	Added reduced hitpoints to Balder
+01	Added reduced hitpoints to Yeres
+
+05	Added a 'kill the Yeti' to the objectives after the Yeti is spawned.
+	 (thanks to TheSribe for pointing me)
+
+08	Fixed the 'not to capture allied villages' message (works only BfW 1.10.3 or later)
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.20a                Upload 28.08.2012
+
+Upload to the 1.11 Server
+
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.20b                Upload 29.08.2012
+
+Removed a forgotten DEBUG_MSG
+
+Fixed a bug in Dont_Capture_Allied_Villages
+
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.21b                Upload 22.09.2012
+
+Modified the 'fake attack macro'
+
+01	Added a fake recruit to the first turn, so [end turn] is not longer needed, and Antar can start at turn 1
+02	Fixed a bug that prevents the 'farewell gift' from being triggered
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.22b                Upload 23.09.2012
+
+02	Fixed a bug that crashes the game if the player defeats all undead before the undead leader
+02	Added a message for players who wants to inspect the mine entrance
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.23b                Upload 22.09.2012
+
+02	Fixed a bug that crashes the game ( corrupt coordinate)
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.24b                Upload .2012
+
+02	The arrival of the undead reinforcements is now animated
+02	Fixed a bug in the {KILL_REMAINING_UNDEAD} macro
+07      Fixed a bug caused by a changed ID
+
+
