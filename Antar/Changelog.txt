@@ -23,7 +23,7 @@ Downgraded Elorial Din from L3 Marshal to L2 Captain (Elorial Din is allowed now
 04  Add 2nd hint: 'Stay on the path'.
 04  Add 3rd hint: 'Keep together, and shield eachother'.
 
-05  Add hint to capture the elvish villages not.
+05  Add hint that the player should not capture the elvish villages
      (thanks Leo)
 
 06  Bat-leader will change to passive_leader=no when a unit comes next.
@@ -31,7 +31,7 @@ Downgraded Elorial Din from L3 Marshal to L2 Captain (Elorial Din is allowed now
 06  You don't get the 13 coins if you decide to kill the bat leader not.
      (thanks taptap)
 
-07  The Elves kill no longer the Ork-leader at the end of the scenario, he gets in prison now.
+07  The Elves kill no longer the Ork-leader at the end of the scenario, he gets put in prison now.
      (thanks taptap)
 
 
@@ -47,19 +47,19 @@ ________________________________________________________________________________
 Changelog Antar                Version 0.0.8                Upload 22.03.2012
 
 Fixed the missing image of the Death Squire
-02    The windmill has now income like a village
-02    The player gets now a warning before the Undead-reinforcements arrive    (thanks taptap)
-03    Now 3 different level of Wolfes attack together in pack
+02    The windmill now has income like a village
+02    The player now gets a warning before the Undead-reinforcements arrive .   (thanks taptap)
+03    Now theres three different levels, for the wolves that attack together
 05    Made it so that only one Elvish Hunter is loyal
 05    Fixed the scout problem
-05    Deletet name of the Yeti. Yetis shouldn't have any names.
+05    Deleted name of the Yeti. Yetis shouldn't have any names.
 
 
 _____________________________________________________________________________________________________________________________
 
 Changelog Antar                Version 0.0.10                Upload 07.04.2012
 
-01    Resized the map 
+01    Resized the map (What map?)
 05    Fixed a typo and  a missing closing-tag in the hint message
 
 
@@ -68,10 +68,10 @@ ________________________________________________________________________________
 Changelog Antar                Version 0.0.11                Upload 06.05.2012
 
 Fixed 'undead disapear message'
-Add last breath message for the loyal Lowitz
-Add last breath message for the loyal Segurd
-Add last breath message for Pretscher
-Add last breath message for loyal Elves
+Added last breath message for the loyal Lowitz
+Added last breath message for the loyal Segurd
+Added last breath message for Pretscher
+Added last breath message for loyal Elves
 Renamed the Lvl 1 Peasant to Vigilante
  (thanks Metal King)
 
@@ -96,7 +96,7 @@ Changelog Antar                Version 0.8.12                Upload 20.05.2012
 Changed the villagers alignment from 'neutral' to 'lawful'
 Added 'Hit and run' to Antar
 Added 'Cleave' abillity' to Careonryn 
-        (thanks Ninjuri for the idea; thanks dugi for the code)
+        (thanks Ninjuri for the idea; thanks Dugi for the code)
 
 
 _____________________________________________________________________________________________________________________________
@@ -176,7 +176,7 @@ ________________________________________________________________________________
 
 Changelog Antar                Version 0.8.20                Upload 15.08.2012
 
-Fixed a wrong path to that make some images not visible to non windows users.
+Fixed a wrong path, so some images was not visible to non windows users.
 	 (thanks to TheScribe and Kanzil for reporting; and to Anonymissimus for analysing and fixing the error)
 
 01	Added reduced hitpoints to Balder
@@ -223,14 +223,28 @@ ________________________________________________________________________________
 
 Changelog Antar                Version 0.8.23b                Upload 22.09.2012
 
-02	Fixed a bug that crashes the game ( corrupt coordinate)
+02	Fixed a bug that crashes the game ( corrupt coordinate) ### Coordinates
 
 _____________________________________________________________________________________________________________________________
 
-Changelog Antar                Version 0.8.24b                Upload .2012
+Changelog Antar                Version 0.8.24b                Upload 29.09.2012
 
 02	The arrival of the undead reinforcements is now animated
 02	Fixed a bug in the {KILL_REMAINING_UNDEAD} macro
 07      Fixed a bug caused by a changed ID
+
+_____________________________________________________________________________________________________________________________
+
+Changelog Antar                Version 0.8.26a                Upload 05.11.2012
+
+modified the hit_and_run abillity, so that in any case three movepoints remain at least
+add AMLA default to Goblin_Rock_Rider
+
+01	The 'mad' Malbeth moves back to his after his 'mad' attack
+01	'poor souls, poor souls' message apears only one time from now
+04	The units on the recall list will no longer be counted for the goblin spawn calculation
+         (Thanks to Dugi for pointing me)
+06	Added new sprite images for the Mountain man / taken from Ageless Era
+07a     Added new scenario (Flight Tunnel)
 
 
