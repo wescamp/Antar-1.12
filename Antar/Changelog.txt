@@ -335,3 +335,7 @@ Changelog Antar                Version 0.9.3                Upload 31.12.2012
 05	+ added a 'help feature message' to give a new player a hint that he will play the Elfes in more than this scenario
 
 08	? changed the music to battle_music when side_1 discovers the Undead first time
+
+Changelog Antar                Version 0.9.4                Upload 08.01.2013
+
+BfW version 1.11.1 has an unsolved bug, so I added a hint for the player to tell him he should use a other BfW version
