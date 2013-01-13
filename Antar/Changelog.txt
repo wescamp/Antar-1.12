@@ -336,6 +336,48 @@ Changelog Antar                Version 0.9.3                Upload 31.12.2012
 
 08	? changed the music to battle_music when side_1 discovers the Undead first time
 
+_____________________________________________________________________________________________________________________________
+
+================================================================
+Special marks (used in version history)
+----------------------------------------------------------------
+(+) added something
+(-) removed something
+(!) fixed a problem
+(?) temporary fix/remove/add of something
+================================================================
+
 Changelog Antar                Version 0.9.4                Upload 08.01.2013
 
 BfW version 1.11.1 has an unsolved bug, so I added a hint for the player to tell him he should use a other BfW version
+
+_____________________________________________________________________________________________________________________________
+
+================================================================
+Special marks (used in version history)
+----------------------------------------------------------------
+(+) added something
+(-) removed something
+(!) fixed a problem
+(?) temporary fix/remove/add of something
+================================================================
+
+Changelog Antar                Version 0.9.5                Upload 12.01.2013
+
+	? Added a workaround for the unsolved BfW 1.11.1 bug, that keeps Elorial Dins recall list empty
+
+_____________________________________________________________________________________________________________________________
+
+================================================================
+Special marks (used in version history)
+----------------------------------------------------------------
+(+) added something
+(-) removed something
+(!) fixed a problem
+(?) temporary fix/remove/add of something
+================================================================
+
+Changelog Antar                Version 0.9.6                Upload 13.01.2013
+
+	! Fixed a bug in the last changes. (Elorial Dins progress)
+	? Added a note that Antar still not work with BfW version 1.11.0   :-(
