@@ -351,6 +351,8 @@ Changelog Antar                Version 0.9.4                Upload 08.01.2013
 
 BfW version 1.11.1 has an unsolved bug, so I added a hint for the player to tell him he should use a other BfW version
 
+  	? Added a description for some main characters. Those will displayed only in help mode.
+
 _____________________________________________________________________________________________________________________________
 
 ================================================================
@@ -381,3 +383,96 @@ Changelog Antar                Version 0.9.6                Upload 13.01.2013
 
 	! Fixed a bug in the last changes. (Elorial Dins progress)
 	? Added a note that Antar still not work with BfW version 1.11.0   :-(
+
+_____________________________________________________________________________________________________________________________
+
+================================================================
+Special marks (used in version history)
+----------------------------------------------------------------
+(+) added something
+(-) removed something
+(!) fixed a problem
+(?) temporary fix/remove/add of something
+================================================================
+
+Changelog Antar                Version 0.9.7                Upload 17.01.2013
+
+	! Fixed a typo in the units.cfg of the Vagrant
+	    (Thanks to dark_Crag)
+	! Readded a missing song
+	    (Thanks to dark_Crag)
+	- Removed the redundant image pathes to the female villagers
+	    (Thanks to dark_Crag)
+	
+01	- Deleted the discarded 'find_vacant' line
+	    (Thanks to dark_Crag)
+02	! Fixed Lord Veogwyns ID. That wrong ID had prevented him to speak.
+	    (Thanks to dark_Crag)
+02	! Removed a useles WML part that tries to recall a nonexistent unit
+	    (Thanks to dark_Crag)
+03	- Removed the redundant recall tag for Gelphrad
+
+_____________________________________________________________________________________________________________________________
+
+================================================================
+Special marks (used in version history)
+----------------------------------------------------------------
+(+) added something
+(-) removed something
+(!) fixed a problem
+(?) temporary fix/remove/add of something
+================================================================
+
+Changelog Antar                Version 0.9.8                Upload 18.01.2013
+
+	! Fixed bug in the main character description. Like it was intended, the description is now just one time visible for each hero.
+
+03	- Removed the discarded 'find_vacant' lines
+
+_____________________________________________________________________________________________________________________________
+
+================================================================
+Special marks (used in version history)
+----------------------------------------------------------------
+(+) added something
+(-) removed something
+(!) fixed a problem
+(?) temporary fix/remove/add of something
+================================================================
+
+Changelog Antar                Version 0.9.9                Upload 19.01.2013
+
+	! Removed a broken macro that prevented the game from loading
+
+_____________________________________________________________________________________________________________________________
+
+================================================================
+Special marks (used in version history)
+----------------------------------------------------------------
+01 - 09 scenario number
+(+)     added something
+(-)     removed something
+(!)     fixed a problem
+(?)     temporary fix/remove/add of something
+================================================================
+
+Changelog Antar                Version 0.9.10               Upload 27.01.2013
+
+	! Fixed the broken macro that prevented the game from loading
+
+02	+ Added a goto to the spawend canrecruit=yes
+02	+ Added a check have_unit to the hero recalls
+
+03	- removed the (not working as expected)) fake side
+03	? slowed the wolves on the turn they appear, so they don't come too suddently	
+
+05	! Fixed broken get_loosers_gold-macro macro for Sammael
+
+07	! Fixed a broken message about the orcs gold
+	    (Thanks to dark_Crag)
+07	! The Wose did no longer die by fire. Fixed the broken code
+
+08	? Resized the map
+08	? Added a extra hidden entrance
+08	? Added a hint to get sure the player moves Antar in the mines
+08	? Restricted the bottleneck east of the prison for the Dwarves
