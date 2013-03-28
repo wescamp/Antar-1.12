@@ -460,11 +460,13 @@ Changelog Antar                Version 0.9.10               Upload 27.01.2013
 
 	! Fixed the broken macro that prevented the game from loading
 
-02	+ Added a goto to the spawend canrecruit=yes
+	? Added a hint to the server.pbl and the first scenario, about the current BfW 1.11 development issues (BfW version 1.11 only)
+
+02	+ Added a goto to the spawned canrecruit=yes
 02	+ Added a check have_unit to the hero recalls
 
 03	- removed the (not working as expected)) fake side
-03	? slowed the wolves on the turn they appear, so they don't come too suddently	
+03	? slowed the wolves on the turn they appear, so they don't come too suddenly	
 
 05	! Fixed broken get_loosers_gold-macro macro for Sammael
 
@@ -476,3 +478,43 @@ Changelog Antar                Version 0.9.10               Upload 27.01.2013
 08	? Added a extra hidden entrance
 08	? Added a hint to get sure the player moves Antar in the mines
 08	? Restricted the bottleneck east of the prison for the Dwarves
+
+_____________________________________________________________________________________________________________________________
+
+================================================================
+Special marks (used in version history)
+----------------------------------------------------------------
+01 - 09 scenario number
+(+)     added something
+(-)     removed something
+(!)     fixed a problem
+(?)     temporary fix/remove/add of something
+================================================================
+
+Changelog Antar                Version 0.9.11               Upload 26.03.2013
+
+	+ Added a 'right click menu' entry to give the player the possibility to deactivate the Help Feature anytime
+	! Added type Fog Clearer to the [filter][not] of the nearest unit macro to prevent the possibility that a Fog Clearer is the nearest unit
+	? Changed the .cfg files for Lowitz and Segurd
+	+ Added custom unit_descriptions for Lowitz and Segurd
+	+ Improved the code for Gelphrads Staff of Kerathur
+	? Added WEAPON_SPECIAL_PRECISION to the loyal Lowitz
+	+ Added a custom unit_description for Antar and Dagor, written by Kanzil
+	    (thank you my friend)
+	? Added a own units.cfg for Dagor with a few tweaks
+	? Tweaked Careonryns resistances (blade pierce impact +10)
+	- Removed some of the CLEAR_FOG macro's, because the Fog Clearer captured villages, or was visible somehow otherwise
+	+ Added a red shading to the freshly killed walking corpses
+	  (thanks to homunculus for the code)
+
+01	? Tweaked the map a little bit
+
+02	? Changed the enemy leader type from Death Knight to Dark Sorcerer
+02	? Tweaked the map a little bit
+
+03	? Changed the code that slows the wolves, because the old code prohibited the wolves from attacking strong forces
+
+08	? Restricted the bottleneck east of the prison for the Dwarves
+08	? Added some guards for Ugoshag (Draug and Death Howler)
+08	? Removes some bottlenecks from the map
+08	? Noach (the prisoner) is now without his staff while he is imprisoned, he get his staff when he is freed
