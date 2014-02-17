@@ -1,0 +1,3 @@
+darkness_beam-9      Used for halo of the Revenant Mage  in 'The Dwarves'
+
+recruit-a-1..13      Used for the Death Knight appear animation in 'Hagtamorg'

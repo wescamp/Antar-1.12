@@ -243,7 +243,7 @@ modified the hit_and_run abillity, so that in any case three movepoints remain a
 add AMLA default to Goblin_Rock_Rider
 
 01	The 'mad' Malbeth moves back to his after his 'mad' attack
-01	'poor souls, poor souls' message apears only one time from now
+01	'poor souls, poor souls' message apears only one time from now on
 
 04	The units on the recall list will no longer be counted for the goblin spawn calculation
          (Thanks to Dugi for pointing me)
@@ -252,7 +252,7 @@ add AMLA default to Goblin_Rock_Rider
 _____________________________________________________________________________________________________________________________
 
 ================================================================
-Special marks (used in version history)
+Special marks (used from now on in version history)
 ----------------------------------------------------------------
 (+) added something
 (-) removed something
@@ -558,5 +558,183 @@ Changelog Antar                Version 0.9.13               Upload 27.04.2013
 05	! Fixed the the enemy kill count for the objectives (different objectives for the case all orcs are dead, and still the Yeti is to beat)
 
 07	? Removed one Firestarter (one Firestarter is enough/looks better)
+
 08	? Removed 'Don't capture allied villages' message
+
+_____________________________________________________________________________________________________________________________
+
+================================================================
+Special marks (used in version history)
+----------------------------------------------------------------
+01 - 10 scenario number
+(+)     added something
+(-)     removed something
+(!)     fixed a problem
+(?)     temporary fix/remove/add of something
+================================================================
+
+Changelog Antar                Version 0.10.1               Upload 02.12.2013
+
+	+ Unit Description for Elorial Din, Garulf, Gelphrad(only ruffian level) and Grimbold written by Gooby
+         (thanks to Gooby)
+	- Elorial Din no longer levels up to level 5 (Elvish High Lord); He now has custom advancements instead.
+	+ Added custom AMLA to Elorial Din ( fairie fire attack)
+	- Removed the ugly if_help_yes help[chat]
+	+ Added a help menu (right click) for each scenario.
+	+ Improved the fake attack macro. Damage is visible now.
+	! Changed Gelphrad's attack and damage stats
+	 (thanks to Paulomat)
+	? Changed Gelphrad, removed Backstab
+	 (thanks to gfgtdf for reminding me)
+	! Fixed Antar's Sword advancement (it is sabre, not sword)
+	 (thanks to Paulomat)
+	! Hit_and_Run code works now without problems. Replaced the old code by new code (in lua) written by gfgtdf
+	 (thanks to gfgtdf)
+	! Fixed the issue with the second [modifications] tag in Segurd's [unit] tag
+	 (thanks to gfgtdf)
+	! Fixed the issue with the second [modifications] tag in Lowitz's [unit] tag
+	 (thanks to gfgtdf)
+	! Fixed the issue with the second [modifications] tag in Gelphrad's [unit] tag
+	 (thanks to gfgtdf)
+	! Customized the ON_SIGHTING macro
+	? Changed the looser gold message (again), now the unit speaks again, not longer <gameplay> <chat>
+	? Changed Careonryns Cleave Ability - it works no longer when he is defending (that Ability on defens killed him much too often ) 
+	? Raised the XP of careonryn on all his advancement levels
+        ? Changed the ID ElorialDin to Elorial Din, because that is what should be visible in the status table (this change will break older saveloads)
+	? Added a feature (taken from Paulomat's The Rising [single player campaign]) that gives the player the possibility to mark certain units
+	? Added the QUICK trait to Elorial Din (Elvish Leader)
+	? Added the QUICK trait to Bridal (loyal Elf)
+
+
+01	+ 'Trait fanatism' for Malbeth, to explain why he still can move after attacking
+01	? Now a random number of Walking Corpses spawns out of villages captured by undead
+01	? changed village_value for undeads depending on difficulty setting
+
+02	? Undead reinforcements now arrive on new_turn, instead on die_event
+02	? Rider who comes to allert that undead reinforcements are coming, now reports to Lord Veogwyn, 
+          so he is not longer able to attack the Undead leader within the next turn.
+	 (thanks to gfgtdf)
+02	? Added some undead ambushers (they hide in the woods)
+
+03	? Increased Grimbolds level from 1 to 2
+03	? Decreased Toughkon's level from 2 to 1
+03	? Grimbold has now the 'protection ability' ( works only to protect Garulf)
+	 (thanks to Dugi for coding assistance)
+03	? Rebalanced the scenario. Raised the difficulty, especially on HARD
+03	! Fixed wrong displayed objectives
+03	? Garulf (the Dwarf) is HERO now
+
+05	? The Yeti-cage-hex is no longer impassable
+05	? Rebalanced the scenario. Raised the difficulty, especially on HARD
+05	? Added narrator messages (Orc reinforcements) when the Orcs get addidional gold
+
+06	? Added code to allow units viewing over chasm
+
+07	? Rebalanced the scenario. Raised the difficulty, especially on HARD (mostly more bats)
+07	! Replaced problematic code that prevents undo unit moves
+	 (thanks to gfgtdf)
+07	+ Over worked the whole code
+07	+ Over worked the moves/way of the firestarter
+07	+ Added new images for burning forest (images made by Frank Piper)
+07	+ The fire now no longer burns endless, now it goes out after some time
+	 (Thanks to Paulomat for the suggestion)
+07	+ Added terrain for burned down forest
+07	- Elorial can no longer recruit Woses after this scenario. Only the surviving Woses join him.
+07	+ If Woses survive, the the oldesd Wose joins as loyal now.
+
+08	? Guards now follow and protect Gomdring when he attacks
+08	- Removed Get Loosergold for this scenario
+08	+ Addidional turns after Antar meet Gomdring has now different values for different difficulties
+08	+ Increased addidional turns after Antar meet Gomdring
+08	+ Modified the 'rising undead again' code. Now it looks much better in game.
+08	! Changed the sentence about the hidden passage.
+	 (thanks to stillcen)
+08	- Removed the TEG_FORCE_AI_TO_HEAL macro
+08	! Fixed a bug in the KILL_REMAINING_UNDEAD_AND_RISE_AGAIN code
+08	+ Modified the Death Howler unit (added the Manaeater attack)
+08	? Raised Gomdrings HP +10
+08	! Changed [if] to [filter_condition] if possible
+
+
+09	? changed map
+09	? Added five villages to the map (to give the Elves more income)
+09	+ Added one Orcish Nightblade as a little extra surprise
+
+10	? changed map
+10	? Added five villages to the map (to give the Elves more income)
+10	+ Added stone-wall-doors made by Rich Marinaccio (cephalo) 
+10	+ Added new sprite for the slaughtered Hag'ta'morg (many thanks to Chief_Chasso for the sprite)
+
+_____________________________________________________________________________________________________________________________
+
+================================================================
+Special marks (used in version history)
+----------------------------------------------------------------
+01 - 10 scenario number
+(+)     added something
+(-)     removed something
+(!)     fixed a problem
+(?)     temporary fix/remove/add of something
+================================================================
+
+Changelog Antar                Version 0.10.3               Upload 04.12.2013
+
+	? Changed the main.cfg description
+
+05	! Fixed a bug in the terrain.cfg / The elvish castle had a orcish overlay
+
+
+_____________________________________________________________________________________________________________________________
+
+================================================================
+Special marks (used in version history)
+----------------------------------------------------------------
+01 - 10 scenario number
+(+)     added something
+(-)     removed something
+(!)     fixed a problem
+(?)     temporary fix/remove/add of something
+================================================================
+
+Changelog Antar                Version 0.10.4              Upload 10.12.2013
+
+
+
+	! Fixed the ellipse of the loyal unit Lowitz
+	! Fixed a bug in the {CHECK_ELORIALS_LOYALS SIDE} macro ( wrong ID for Elorial Din)
+	! Fixed the Old One's scream attack icon
+	! Fixed wrong ID for Elorial Din in the death.cfg (ElorialDin)
+
+07	! Fixed a bug in the fireprogress code
+07	? Changed the code to random place the first wose
+07	! Fixed a bug in the goto_x/goto_y coodinates of side=3 (wose)
+
+08	? Added the expendable-leader-overlay to all dwarvish leaders except Gomdring
+08	? Fixed the blank ellipse, seems there was a change in core after 1.11.6
+08	+ Added messages for the case that a dwarf is the first side=1 unit that meet's Gomdring
+
+
+_____________________________________________________________________________________________________________________________
+
+================================================================
+Special marks (used in version history)
+----------------------------------------------------------------
+01 - 10 scenario number
+(+)     added something
+(-)     removed something
+(!)     fixed a problem
+(?)     temporary fix/remove/add of something
+================================================================
+
+Changelog Antar                Version 0.10.5              Upload 13.12.2013
+
+
+	? Changed the sound of the Old One's scream attack
+
+08	? The side=5 dwarfes will again 'stay inside the walls' for the whole scenario 
+08	! Removed the {IS_HERO} from Gomdring because this caused a missing image
+08	! Added the missing halo image to Ugoshag
+08	! Added the missing defend sound to the Old One
+08	! Added a [avoid] to hinder Gomdring to move into (and block) the small passway
+08	! Fixed the Old One's Maneater special. There was no DEFEAT when a hero was killed with this special
 

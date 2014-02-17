@@ -1,0 +1,22 @@
+about 'blank'
+
+this is used for units with no ellipse
+
+from versions older than 1.11.7:
+---------------------------------
+(can be removed after the release of 1.12.x)
+
+blank-bottom
+blank-top
+blank-selected-bottom
+blank-selected-top
+
+
+
+
+used from 1.11.7 on:
+---------------------
+blank-nozoc-bottom
+blank-nozoc-top
+blank-nozoc-selected-bottom
+blank-nozoc-selected-top
