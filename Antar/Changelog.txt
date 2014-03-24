@@ -587,7 +587,7 @@ Changelog Antar                Version 0.10.1               Upload 02.12.2013
 	? Changed Gelphrad, removed Backstab
 	 (thanks to gfgtdf for reminding me)
 	! Fixed Antar's Sword advancement (it is sabre, not sword)
-	 (thanks to Paulomat)
+	 (thanks to Paulomat4)
 	! Hit_and_Run code works now without problems. Replaced the old code by new code (in lua) written by gfgtdf
 	 (thanks to gfgtdf)
 	! Fixed the issue with the second [modifications] tag in Segurd's [unit] tag
@@ -601,7 +601,7 @@ Changelog Antar                Version 0.10.1               Upload 02.12.2013
 	? Changed Careonryns Cleave Ability - it works no longer when he is defending (that Ability on defens killed him much too often ) 
 	? Raised the XP of careonryn on all his advancement levels
         ? Changed the ID ElorialDin to Elorial Din, because that is what should be visible in the status table (this change will break older saveloads)
-	? Added a feature (taken from Paulomat's The Rising [single player campaign]) that gives the player the possibility to mark certain units
+	? Added a feature (taken from Paulomat4's The Rising [single player campaign]) that gives the player the possibility to mark certain units
 	? Added the QUICK trait to Elorial Din (Elvish Leader)
 	? Added the QUICK trait to Bridal (loyal Elf)
 
@@ -637,7 +637,7 @@ Changelog Antar                Version 0.10.1               Upload 02.12.2013
 07	+ Over worked the moves/way of the firestarter
 07	+ Added new images for burning forest (images made by Frank Piper)
 07	+ The fire now no longer burns endless, now it goes out after some time
-	 (Thanks to Paulomat for the suggestion)
+	 (Thanks to Paulomat4 for the suggestion)
 07	+ Added terrain for burned down forest
 07	- Elorial can no longer recruit Woses after this scenario. Only the surviving Woses join him.
 07	+ If Woses survive, the the oldesd Wose joins as loyal now.
@@ -737,4 +737,21 @@ Changelog Antar                Version 0.10.5              Upload 13.12.2013
 08	! Added the missing defend sound to the Old One
 08	! Added a [avoid] to hinder Gomdring to move into (and block) the small passway
 08	! Fixed the Old One's Maneater special. There was no DEFEAT when a hero was killed with this special
+
+
+_____________________________________________________________________________________________________________________________
+
+================================================================
+Special marks (used in version history)
+----------------------------------------------------------------
+01 - 10 scenario number
+(+)     added something
+(-)     removed something
+(!)     fixed a problem
+(?)     temporary fix/remove/add of something
+================================================================
+
+Changelog Antar                Version 0.10.6              Upload 12.03.2014
+
+07	? Changed the code that makes the Wose-Survivor loyal
 
