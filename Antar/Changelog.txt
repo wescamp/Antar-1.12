@@ -755,3 +755,19 @@ Changelog Antar                Version 0.10.6              Upload 12.03.2014
 
 07	? Changed the code that makes the Wose-Survivor loyal
 
+_____________________________________________________________________________________________________________________________
+
+================================================================
+Special marks (used in version history)
+----------------------------------------------------------------
+01 - 10 scenario number
+(+)     added something
+(-)     removed something
+(!)     fixed a problem
+(?)     temporary fix/remove/add of something
+================================================================
+
+Changelog Antar                Version 0.10.7              Upload 13.04.2014
+
+08	! removed an empty translatable string (thank you AI for reporting)
+
